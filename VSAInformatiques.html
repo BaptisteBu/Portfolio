@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Nom du Projet - Baptiste Buthion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+    html {
+        scroll-behavior: smooth; 
+    }
+    nav a {
+        transition: color 0.3s ease, transform 0.2s ease;
+    }
+    nav a:hover {
+        color: #a78bfa; /* violet clair */
+        transform: translateY(-2px);
+    }
+</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="bg-gray-950 text-white font-sans">
+
+    <!-- Navbar simple -->
+    <nav class="fixed w-full bg-gray-900/80 backdrop-blur-md shadow-lg z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-purple-400">Baptiste Buthion</h1>
+            <a href="index.html" class="hover:text-purple-400 transition duration-300 ease-in-out">← Retour au Portfolio</a>
+        </div>
+    </nav>
+
+    <!-- Hero Projet -->
+    <section class="pt-32 pb-16 px-6 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4 text-purple-400">Nom du Projet</h2>
+        <p class="text-gray-400 max-w-2xl mx-auto mb-6">
+            Une courte description du projet. Explique les objectifs, les fonctionnalités principales et ce que tu as réalisé.
+        </p>
+        <div class="text-gray-400 mb-6">
+            <span class="bg-gray-800 px-3 py-1 rounded-lg text-sm">PHP</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-lg text-sm">Laravel</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-lg text-sm">SQL</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-lg text-sm">CSS</span>
+        </div>
+        <a href="index.html" 
+           class="bg-purple-600 hover:bg-purple-700 px-6 py-3 rounded-xl font-semibold transition">
+           Retour au Portfolio
+        </a>
+    </section>
+
+    <!-- Section détails (optionnel) -->
+    <section class="max-w-5xl mx-auto px-6 pb-20">
+        <h3 class="text-2xl font-bold mb-4 text-purple-400">Détails du projet</h3>
+        <p class="text-gray-400 mb-4">
+            Décris ici plus en détail le projet : technologies utilisées, difficultés rencontrées, objectifs, étapes de développement, etc.
+        </p>
+        <p class="text-gray-400 mb-4">
+            Tu peux ajouter une liste des fonctionnalités ou un petit guide sur la façon d'utiliser ton projet.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-6 text-center text-gray-500 text-sm">
+        © 2026 Baptiste Buthion - Tous droits réservés
+    </footer>
+
+</body>
+</html>
