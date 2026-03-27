@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>MultiBuro - Baptiste Buthion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+    html {
+        scroll-behavior: smooth; 
+    }
+    nav a {
+        transition: color 0.3s ease, transform 0.2s ease;
+    }
+    nav a:hover {
+        color: #a78bfa; /* violet clair */
+        transform: translateY(-2px);
+    }
+</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="bg-gray-950 text-white font-sans">
+
+    <!-- Navbar simple -->
+    <nav class="fixed w-full bg-gray-900/80 backdrop-blur-md shadow-lg z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-purple-400">Baptiste Buthion</h1>
+            <a href="Accueil.html" class="hover:text-purple-400 transition duration-300 ease-in-out">← Retour au Portfolio</a>
+        </div>
+    </nav>
+
+    <!-- Hero Projet -->
+    <section class="pt-32 pb-16 px-6 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4 text-purple-400">MultiBuro</h2>
+        <p class="text-gray-400 max-w-2xl mx-auto mb-6">
+            MultiBuro est un projet dans le cadre scolaire. Le but était de crée une site web de gestion de réservation de bureau en FullStack. 
+        </p>
+        <div class="text-gray-400 mb-6">
+            <span class="bg-gray-800 px-3 py-1 rounded-lg text-sm">PHP</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-lg text-sm">SQL</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-lg text-sm">HTML / CSS</span>
+        </div>
+        <a href="Accueil.html" 
+           class="bg-purple-600 hover:bg-purple-700 px-6 py-3 rounded-xl font-semibold transition">
+           Retour au Portfolio
+        </a>
+    </section>
+     <section class="py-20 bg-gray-900 px-6">
+  <h3 class="text-3xl font-bold mb-12 text-purple-400 text-center">Équipe</h3>
+
+  <div class="flex flex-col md:flex-row items-center justify-between gap-32 max-w-6xl mx-auto">
+    
+    <!-- Arbre à gauche -->
+    <div class="flex flex-col items-center">
+
+      <div class="flex items-center">
+        <div class="w-32 h-1 bg-gray-400"></div>
+        <div class="w-32 h-1 bg-gray-400"></div>
+      </div>
+
+      <div class="flex justify-center gap-20 w-80 mt-4">
+        <div class="flex flex-col items-center">
+          <div class="w-1 h-6 bg-gray-400"></div>
+          <div class="bg-green-500 text-white px-4 py-2 rounded-lg shadow">
+            Ésteban
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <div class="w-1 h-6 bg-gray-400"></div>
+          <div class="bg-green-500 text-white px-4 py-2 rounded-lg shadow">
+            Moi 
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Texte à droite -->
+    <div class="text-gray-300 max-w-md">
+      <h4 class="text-xl font-semibold text-purple-400 mb-4">
+        Notre équipe
+      </h4>
+      <p class="mb-4">
+        Le projet était à réaliser en binôme. Avec Ésteban, nous avons collaboré étroitement pour concevoir et développer le site web de MultiBuro.
+      </p>
+    </div>
+
+  </div>
+</section>
+<section class="pt-32 pb-16 px-6 text-center">
+        <h2 class="text-3xl md:text-5xl font-bold mb-4 text-purple-400">Mission</h2>
+        <p class="text-gray-400 max-w-4xl mx-auto mb-6">
+            Notre professeur nous a donné des étapes claires à suivre pour la réalisation de l'application, nous avons donc suivi ces étapes pour mener à bien la réalisation 
+            du projet.
+        </p>
+        <div class="max-w-6xl mx-auto px-6">
+    <h1 class="text-4xl font-bold text-center mb-20">Déroulement du Projet</h1>
+
+    <div class="relative">
+
+      <!-- Ligne centrale -->
+      <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-blue-500"></div>
+
+      <!-- ITEM 1 -->
+      <div class="relative mb-16 flex justify-between items-center w-full ">
+        <div class="w-5/12 text-right pr-8">
+          <div class="bg-purple-400 p-6 rounded-xl shadow-lg hover:shadow-xl transition ">
+            <h2 class="text-xl font-semibold mb-2">Analyse des demandes</h2>
+            <p class="text-gray-800">
+                Grâce au étapes données par notre professeur, nous avons pu analyser les demandes et les fonctionnalités à implémenter pour le site web de MultiBuro.
+            </p>
+          </div>
+        </div>
+        <div class="z-10 flex items-center justify-center w-10 h-10 bg-blue-500 rounded-full border-4 border-white shadow-md"></div>
+        <div class="w-5/12"></div>
+      </div>
+
+      <!-- ITEM 2 -->
+      <div class="relative mb-16 flex justify-between items-center w-full">
+        <div class="w-5/12"></div>
+        <div class="z-10 flex items-center justify-center w-10 h-10 bg-blue-500 rounded-full border-4 border-white shadow-md"></div>
+        <div class="w-5/12 pl-8">
+          <div class="bg-purple-400 p-6 rounded-xl shadow-lg hover:shadow-xl transition">
+            <h2 class="flex start text-xl font-semibold mb-2">Conception initiale</h2>
+            <p class="flex text-start text-gray-800">
+              Élaboration de la maquette, de la page principales, et des fonctionnalités de base.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ITEM 3 -->
+      <div class="relative mb-16 flex justify-between items-center w-full">
+        <div class="w-5/12 text-right pr-8">
+          <div class="bg-purple-400 p-6 rounded-xl shadow-lg hover:shadow-xl transition">
+            <h2 class="text-xl font-semibold mb-2">Développement – Phase 1</h2>
+            <p class="text-gray-800">
+                Création de la BDD, et mise en place des routes API.
+            </p>
+          </div>
+        </div>
+        <div class="z-10 flex items-center justify-center w-10 h-10 bg-blue-500 rounded-full border-4 border-white shadow-md"></div>
+        <div class="w-5/12"></div>
+      </div>
+
+      <!-- ITEM 4 -->
+      <div class="relative mb-16 flex justify-between items-center w-full">
+        <div class="w-5/12"></div>
+        <div class="z-10 flex items-center justify-center w-10 h-10 bg-blue-500 rounded-full border-4 border-white shadow-md"></div>
+        <div class="w-5/12 pl-8">
+          <div class="bg-purple-400 p-6 rounded-xl shadow-lg hover:shadow-xl transition">
+            <h2 class="flex start text-xl font-semibold mb-2">Développement – Phase 2</h2>
+            <p class="flex text-start text-gray-800">
+              implémentation de nouvelles pages, et de nouvelles fonctionnalités, ainsi que la correction de bugs.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ITEM 5 -->
+      <div class="relative mb-16 flex justify-between items-center w-full">
+        <div class="w-5/12 text-right pr-8">
+          <div class="bg-purple-400 p-6 rounded-xl shadow-lg hover:shadow-xl transition">
+            <h2 class="text-xl font-semibold mb-2">Fin du développement</h2>
+            <p class="text-gray-800">
+              Démonstration aux professeurs de l'application.
+            </p>
+          </div>
+        </div>
+        <div class="z-10 flex items-center justify-center w-10 h-10 bg-blue-500 rounded-full border-4 border-white shadow-md"></div>
+        <div class="w-5/12"></div>
+      </div>
+ </section>
+ <section class="py-20 bg-gray-900 px-6">
+  <h3 class="text-3xl font-bold mb-12 text-purple-400 text-center">Compétences mobilisées</h3>
+
+   <div class="flex flex-col md:flex-row gap-6 justify-center">
+
+  <!-- Boîte 1 -->
+  <div class="bg-purple-300 border-l-8 border-purple-500 rounded-xl shadow-lg p-6 flex-1 hover:shadow-2xl transition transform hover:-translate-y-1">
+    <div class="flex items-center mb-4">
+      <div class="bg-purple-500 text-white w-10 h-10 flex items-center justify-center rounded-full mr-4">💻</div>
+      <h2 class="text-xl font-bold">FRONT-END</h2>
+    </div>
+    <ul class="space-y-2 text-gray-700 text-center">
+      <li>CSS</li>
+      <li>HTML</li>
+    </ul>
+  </div>
+
+  <!-- Boîte 2 -->
+  <div class="bg-purple-300 border-l-8 border-pink-500 rounded-xl shadow-lg p-6 flex-1 hover:shadow-2xl transition transform hover:-translate-y-1">
+    <div class="flex items-center mb-4">
+      <div class="bg-pink-500 text-white w-10 h-10 flex items-center justify-center rounded-full mr-4">⚙️</div>
+      <h2 class="text-xl font-bold">BACK-END</h2>
+    </div>
+    <ul class="space-y-2 text-gray-700 text-center">
+      <li>PHP</li>
+    </ul>
+  </div>
+
+  <!-- Boîte 3 -->
+  <div class="bg-purple-300 border-l-8 border-indigo-500 rounded-xl shadow-lg p-6 flex-1 hover:shadow-2xl transition transform hover:-translate-y-1">
+    <div class="flex items-center mb-4">
+      <div class="bg-indigo-500 text-white w-10 h-10 flex items-center justify-center rounded-full mr-4">🛠️</div>
+      <h2 class="text-xl font-bold">AUTRES</h2>
+    </div>
+    <ul class="space-y-2 text-gray-700 text-center">
+      <li>GitHub</li>
+      <li>SQL</li>
+      <li>Réunion d'équipe</li>
+    </ul>
+  </div>
+
+</div>
+    </section>
+    <section class="pt-32 pb-16 px-6 text-center">
+        <h2 class="text-3xl md:text-5xl font-bold mb-6 text-purple-400">Bilan</h2>
+
+        <p class="text-gray-400 max-w-5xl mx-auto mb-6">
+            Ce projet a été une deuxième expérience de projet et de trvail concret, même si il n'était pas dans le cadre d'une entreprise. Il ma permis de mettre en pratique 
+            les compétences que j'avais acquises, ainsi que de les approfondir. En particulier pour le php, le projet m'a permis de franchir un certain cap dans la comprhension 
+            de la logique du language.
+        </p>
+        <p class="text-gray-400 max-w-5xl mx-auto mb-6">
+            Je regrette nenmoins que mon état de santé ait pu nuire à la qualité du travail rendu, ainsi qu'à mon engagement dans le projet.
+        </p>
+        </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-6 text-center text-gray-500 text-sm">
+        © 2026 Baptiste Buthion - Tous droits réservés
+    </footer>
+
+</body>
+</html>

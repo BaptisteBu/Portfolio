@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>VSA Informatiques - Baptiste Buthion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+    html {
+        scroll-behavior: smooth; 
+    }
+    nav a {
+        transition: color 0.3s ease, transform 0.2s ease;
+    }
+    nav a:hover {
+        color: #a78bfa; /* violet clair */
+        transform: translateY(-2px);
+    }
+</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="bg-gray-950 text-white font-sans">
+
+    <!-- Navbar simple -->
+    <nav class="fixed w-full bg-gray-900/80 backdrop-blur-md shadow-lg z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-purple-400">Baptiste Buthion</h1>
+            <a href="Accueil.html" class="hover:text-purple-400 transition duration-300 ease-in-out">← Retour au Portfolio</a>
+        </div>
+    </nav>
+
+    <!-- Hero Projet -->
+    <section class="pt-32 pb-16 px-6 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4 text-purple-400">VSA Informatiques</h2>
+        <p class="text-gray-400 max-w-2xl mx-auto mb-6">
+            Création d'une application interne à l'entreprise pour une gestion efficace du temps passé sur les tickets, relié directement à GitLab pour une synchronisation en 
+            temps réel. Cette application permet de suivre précisément le temps consacré à chaque tâche et de faciliter la facturation des clients.
+        </p>
+        <div class="text-gray-400 mb-6">
+            <span class="bg-gray-800 px-3 py-1 rounded-lg text-sm">ISS</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-lg text-sm">C#</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-lg text-sm">XAML</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-lg text-sm">.NET</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-lg text-sm">GitLab</span>
+        </div>
+        <a href="Accueil.html" 
+           class="bg-purple-600 hover:bg-purple-700 px-6 py-3 rounded-xl font-semibold transition">
+           Retour au Portfolio
+        </a>
+    </section>
+<section class="py-20 bg-gray-900 px-6">
+  <h3 class="text-3xl font-bold mb-12 text-purple-400 text-center">Équipe</h3>
+
+  <div class="flex flex-col md:flex-row items-center justify-between gap-32 max-w-6xl mx-auto">
+    
+<div class="flex flex-col items-center">
+
+  <div class="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md">
+    Directeur
+  </div>
+
+  <div class="w-1 h-10 bg-gray-400"></div>
+
+  <div class="relative w-[24rem] flex justify-center pr-7">
+    <div class="absolute w-full h-1 bg-gray-400"></div>
+  </div>
+
+ <div class="flex justify-center gap-20 w-[30rem] mt-6">
+
+    <div class="flex flex-col items-center w-2/3">
+
+      <div class="w-1 h-6 bg-gray-400"></div>
+
+      <div class="bg-green-500 text-white px-4 py-2 rounded-lg shadow">
+        Partie Réseau
+      </div>
+
+      <div class="w-1 h-10 bg-gray-400 mt-6"></div>
+
+      <div class="relative w-64 flex justify-center">
+        <div class="absolute w-full h-1 bg-gray-400"></div>
+      </div>
+
+      <div class="flex justify-between w-56 mt-6">
+        <div class="flex flex-col items-center">
+          <div class="w-1 h-6 bg-gray-400"></div>
+          <div class="bg-yellow-500 text-white px-4 py-2 rounded-lg shadow">
+            employé
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <div class="w-1 h-6 bg-gray-400"></div>
+          <div class="bg-yellow-500 text-white px-4 py-2 rounded-lg shadow">
+            alternant
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="flex flex-col items-center w-2/3">
+
+      <div class="w-1 h-6 bg-gray-400"></div>
+
+      <div class="bg-green-500 text-white px-4 py-2 rounded-lg shadow">
+        Partie Développement
+      </div>
+
+      <div class="w-1 h-10 bg-gray-400 mt-6"></div>
+
+      <div class="relative w-80 flex justify-between">
+        <div class="absolute w-full h-1 bg-gray-400"></div>
+      </div>
+
+      <div class="flex justify-center gap-12 mt-6">
+        <div class="flex flex-col items-center">
+          <div class="w-1 h-6 bg-gray-400"></div>
+          <div class="bg-purple-500 text-white px-4 py-2 rounded-lg shadow">
+          employé
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <div class="w-1 h-6 bg-gray-400"></div>
+          <div class="bg-purple-500 text-white px-4 py-2 rounded-lg shadow">
+          employé
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <div class="w-1 h-6 bg-gray-400"></div>
+          <div class="bg-purple-500 text-white px-4 py-2 rounded-lg shadow">
+           employé
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+    <!-- Texte à droite -->
+    <div class="text-gray-300 max-w-md">
+      <h4 class="text-xl font-semibold text-purple-400 mb-4">
+        Notre équipe
+      </h4>
+      <p class="mb-4">
+        VSA Informatiques est une petite entreprise comptant 4 employés et 1 alternant, dont 3 développeurs et 2 personnes en charge du réseau. L'entreprise est dirigée par un 
+        directeur qui supervise l'ensemble des opérations.
+      </p>
+      <p>
+        Une entreprise à taille humaine, où la communication et la collaboration sont facilitées, permettant aisément la demande d'aide ou de soutien.
+      </p>
+    </div>
+
+  </div>
+</section>
+ <section class="pt-32 pb-16 px-6 text-center">
+        <h2 class="text-3xl md:text-5xl font-bold mb-4 text-purple-400">Mission</h2>
+        <p class="text-gray-400 max-w-4xl mx-auto mb-6">
+            Tout ce qui était en lien avec l'application ma été donnée comme missions. De la création de l'application en passant par la mise en place de sécurité, et en 
+            finissant par la documentation et l'installeur
+        </p>
+        <div class="max-w-6xl mx-auto px-6">
+    <h1 class="text-4xl font-bold text-center mb-20">Déroulement du Projet</h1>
+
+    <div class="relative">
+
+      <!-- Ligne centrale -->
+      <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-blue-500"></div>
+
+      <!-- ITEM 1 -->
+      <div class="relative mb-16 flex justify-between items-center w-full ">
+        <div class="w-5/12 text-right pr-8">
+          <div class="bg-purple-400 p-6 rounded-xl shadow-lg hover:shadow-xl transition ">
+            <h2 class="text-xl font-semibold mb-2">Analyse des besoins</h2>
+            <p class="text-gray-800">
+                Grâce au cahier des charges et à une discussion approfondir avec mon maitre de stage, j'ai pu m'inprrgner des deamndes de l'entreprise et réflechir à la 
+                conception de l'application
+            </p>
+          </div>
+        </div>
+        <div class="z-10 flex items-center justify-center w-10 h-10 bg-blue-500 rounded-full border-4 border-white shadow-md"></div>
+        <div class="w-5/12"></div>
+      </div>
+
+      <!-- ITEM 2 -->
+      <div class="relative mb-16 flex justify-between items-center w-full">
+        <div class="w-5/12"></div>
+        <div class="z-10 flex items-center justify-center w-10 h-10 bg-blue-500 rounded-full border-4 border-white shadow-md"></div>
+        <div class="w-5/12 pl-8">
+          <div class="bg-purple-400 p-6 rounded-xl shadow-lg hover:shadow-xl transition">
+            <h2 class="flex start text-xl font-semibold mb-2">Conception initiale</h2>
+            <p class="flex text-start text-gray-800">
+              Élaboration de l’architecture et validation des orientations stratégiques.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ITEM 3 -->
+      <div class="relative mb-16 flex justify-between items-center w-full">
+        <div class="w-5/12 text-right pr-8">
+          <div class="bg-purple-400 p-6 rounded-xl shadow-lg hover:shadow-xl transition">
+            <h2 class="text-xl font-semibold mb-2">Développement – Phase 1</h2>
+            <p class="text-gray-800">
+                Création des pages principales de l'application, sans ce soucier du design. Et mise en place des premières route API.
+            </p>
+          </div>
+        </div>
+        <div class="z-10 flex items-center justify-center w-10 h-10 bg-blue-500 rounded-full border-4 border-white shadow-md"></div>
+        <div class="w-5/12"></div>
+      </div>
+
+      <!-- ITEM 4 -->
+      <div class="relative mb-16 flex justify-between items-center w-full">
+        <div class="w-5/12"></div>
+        <div class="z-10 flex items-center justify-center w-10 h-10 bg-blue-500 rounded-full border-4 border-white shadow-md"></div>
+        <div class="w-5/12 pl-8">
+          <div class="bg-purple-400 p-6 rounded-xl shadow-lg hover:shadow-xl transition">
+            <h2 class="flex start text-xl font-semibold mb-2">Développement – Phase 2</h2>
+            <p class="flex text-start text-gray-800">
+              Mise en place de sécurité avec DPAPI, et ajout des dernières routes API.
+              Création de l'installeur via INNO SETUP.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ITEM 5 -->
+      <div class="relative mb-16 flex justify-between items-center w-full">
+        <div class="w-5/12 text-right pr-8">
+          <div class="bg-purple-400 p-6 rounded-xl shadow-lg hover:shadow-xl transition">
+            <h2 class="text-xl font-semibold mb-2">Fin du développement</h2>
+            <p class="text-gray-800">
+              Stylisation du site, et tests des fonctionnalités pour voir si il n'y a pas des bugs.
+            </p>
+          </div>
+        </div>
+        <div class="z-10 flex items-center justify-center w-10 h-10 bg-blue-500 rounded-full border-4 border-white shadow-md"></div>
+        <div class="w-5/12"></div>
+      </div>
+
+      <!-- ITEM 6 -->
+      <div class="relative flex justify-between items-center w-full">
+        <div class="w-5/12"></div>
+        <div class="z-10 flex items-center justify-center w-10 h-10 bg-blue-500 rounded-full border-4 border-white shadow-md"></div>
+        <div class="w-5/12 pl-8">
+          <div class="bg-purple-400 p-6 rounded-xl shadow-lg hover:shadow-xl transition">
+            <h2 class="flex start text-xl font-semibold mb-2">Revu </h2>
+            <p class="flex text-start text-gray-800">
+             Test complet par l'un des employés pour voir si les demandes ont été respecté.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+        </div>
+ </section>
+   <section class="py-20 bg-gray-900 px-6">
+  <h3 class="text-3xl font-bold mb-12 text-purple-400 text-center">Compétences mobilisées</h3>
+
+   <div class="flex flex-col md:flex-row gap-6 justify-center">
+
+  <!-- Boîte 1 -->
+  <div class="bg-purple-300 border-l-8 border-purple-500 rounded-xl shadow-lg p-6 flex-1 hover:shadow-2xl transition transform hover:-translate-y-1">
+    <div class="flex items-center mb-4">
+      <div class="bg-purple-500 text-white w-10 h-10 flex items-center justify-center rounded-full mr-4">💻</div>
+      <h2 class="text-xl font-bold">FRONT-END</h2>
+    </div>
+    <ul class="space-y-2 text-gray-700 text-center">
+      <li>XAML</li>
+    </ul>
+  </div>
+
+  <!-- Boîte 2 -->
+  <div class="bg-purple-300 border-l-8 border-pink-500 rounded-xl shadow-lg p-6 flex-1 hover:shadow-2xl transition transform hover:-translate-y-1">
+    <div class="flex items-center mb-4">
+      <div class="bg-pink-500 text-white w-10 h-10 flex items-center justify-center rounded-full mr-4">⚙️</div>
+      <h2 class="text-xl font-bold">BACK-END</h2>
+    </div>
+    <ul class="space-y-2 text-gray-700 text-center">
+      <li>C#</li>
+    </ul>
+  </div>
+
+  <!-- Boîte 3 -->
+  <div class="bg-purple-300 border-l-8 border-indigo-500 rounded-xl shadow-lg p-6 flex-1 hover:shadow-2xl transition transform hover:-translate-y-1">
+    <div class="flex items-center mb-4">
+      <div class="bg-indigo-500 text-white w-10 h-10 flex items-center justify-center rounded-full mr-4">🛠️</div>
+      <h2 class="text-xl font-bold">AUTRES</h2>
+    </div>
+    <ul class="space-y-2 text-gray-700 text-center">
+      <li>GitLab</li>
+      <li>Réunion d'équipe</li>
+      <li>.NET</li>
+      <li>ISS</li>
+    </ul>
+  </div>
+
+</div>
+    </section>
+    <section class="pt-32 pb-16 px-6 text-center">
+        <h2 class="text-3xl md:text-5xl font-bold mb-6 text-purple-400">Bilan</h2>
+
+        <p class="text-gray-400 max-w-5xl mx-auto mb-6">
+            Ce projet a été une expérience extrêmement positif pour moi, me permettant de mettre en pratique des compétences apprice en cours dans un projet concret. J'ai 
+            également approndit de manière conséquente mon niveau en c# et xaml.
+            J'ai découvent grâce à ce projet comment fonctionne et comment on travail dans une entreprise déjà en fonctionnement et stable. Ce stage à été pour moi une 
+            expérience plus qu'enrichissante, me donnant d'avantages envie de continuer mes études en alternances.
+        </p>
+        <p class="text-gray-400 max-w-5xl mx-auto mb-6">
+            Je pourrais nenmoins dire que le fait de trvailler directement au sein d'une équipe aurait été quelque chose d'intéressant à découvrir.
+        </p>
+        </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-6 text-center text-gray-500 text-sm">
+        © 2026 Baptiste Buthion - Tous droits réservés
+    </footer>
+
+</body>
+</html>
