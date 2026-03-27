@@ -54,10 +54,10 @@
     <section class="h-screen flex items-center justify-center text-center px-6">
         <div>
             <h2 class="text-4xl md:text-6xl font-extrabold mb-6">
-                Etudiant en développement d'appllication & Web <span class="text-purple-400">FullStack</span>
+                Étudiant en développement d'application & Web <span class="text-purple-400">FullStack</span>
             </h2>
             <p class="text-gray-400 max-w-3xl mx-auto mb-10">
-                Actuellement en recherhce d'alternance, je suis passionné par le développement fullstack & DevOps.
+                Actuellement en recherche d'alternance, je suis passionné par le développement fullstack & DevOps.
             </p>
             <a href="#projects" class="bg-purple-600 hover:bg-purple-700 px-8 py-3 rounded-xl font-semibold transition">
                 Voir mes projets
@@ -66,23 +66,23 @@
     </section>
 
    <!-- About -->
-<section id="about" class="py-20 bg-gray-900 px-6">
-    <div class="max-w-7xl mx-auto">
+<section id="about" class="py-20 bg-gray-900 px-0">
+    <div class="max-w-10xl mx-auto">
         <h3 class="text-3xl font-bold mb-12 text-purple-400 text-center">
             À propos de moi
         </h3>
 
         <!-- CONTENEUR PRINCIPAL -->
-        <div class="flex flex-col md:flex-row items-center gap-12 max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row items-center gap-12 max-w-screen-2xl mx-auto">
 
             <!-- TEXTE GAUCHE -->
             <div class="md:w-1/2 flex items-center">
                 <p class="text-gray-400 leading-relaxed">
                     
                     Je suis passionné par l’informatique, avec un intérêt particulier pour le développement Fullstack. J’apprécie les défis et je 
-                    cherche constamment à repousser mes limites, en allant au-delà du strict minimum pour atteindre des résultats de qualité. Le 
-                    travail en équipe est, selon moi, essentiel : il favorise non seulement la progression collective sur un projet, mais aussi une 
-                    excellente communication et une entente harmonieuse entre les membres, ce qui contribue à la réussite globale.
+                    cherche constamment à repousser mes limites, en allant au-delà du minimum pour atteindre des résultats de qualité. Le
+                    travail en équipe est, selon moi, un essentiel, qui se combine très bien avec le métier de développeur.<br>
+                    J'aime apprendre et découvrir de nouvelles choses, tout autant que d'approfondir des compétences déjà acquises.
                 </p>
             </div>
 
@@ -91,11 +91,16 @@
                 
                 <img src="pdp.png" alt="Photo de profil"
                      class="w-40 h-40 object-cover rounded-full border-4 border-purple-500 shadow-lg mb-6">
-
-                <p class="text-gray-300 max-w-md mb-6">
-                    Titulaire d’un bac STI2D (option SIN) puis d’un BTS SIO (option SLAM), je recherche une alternance afin de poursuivre en bachelor 
-                    Développement Fullstack & DevOps.
-                </p>
+                <div class="flex space-x-4">
+                <a href="https://www.linkedin.com/in/baptiste-buthion-a90805330/" target="_blank" 
+                    class="bg-purple-600 hover:bg-purple-700 px-6 py-2 rounded-xl font-semibold transition mt-4">
+                    LinkedIn
+                </a>
+                <a href="BUTHION-Baptiste-cv.pdf" target="_blank" 
+                    class="bg-purple-600 hover:bg-purple-700 px-6 py-2 rounded-xl font-semibold transition mt-4">
+                    Mon CV
+                    </a>
+                </div>
             </div>
             <div class="relative border-l-4 w-3xl border-blue-500 pl-10 space-y-10 -p-6">
 
@@ -125,25 +130,55 @@
 
 
     <!-- Skills -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
     <section id="skills" class="py-20 px-6">
-        <div class="max-w-6xl mx-auto text-center">
+        <div class="max-w-screen-2xl mx-auto text-center">
             <h3 class="text-3xl font-bold mb-12 text-purple-400">Compétences</h3>
 
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-gray-900 p-8 rounded-2xl shadow-lg hover:scale-105 transition">
-                    <h4 class="text-xl font-semibold mb-4">Frontend</h4>
-                    <p class="text-gray-400">HTML, CSS, Tailwind, JavaScript, VueJS</p>
+            <div class="grid grid-cols-5 gap-4">
+
+                <div class="bg-gray-900 p-8 rounded-2xl shadow-lg hover:-translate-y-1 hover:ring-1 hover:ring-purple-400 transition-all duration-200 cursor-default flex flex-col items-center gap-2">
+                    <h4 class="text-sm font-semibold uppercase tracking-widest text-white mb-2">Frontend</h4>
+                    <p class="text-gray-400 text-sm flex items-center gap-2"><i class="devicon-html5-plain colored text-lg"></i> HTML</p>
+                    <p class="text-gray-400 text-sm flex items-center gap-2"><i class="devicon-css3-plain colored text-lg"></i> CSS</p>
+                    <p class="text-gray-400 text-sm flex items-center gap-2"><i class="devicon-tailwindcss-plain colored text-lg"></i> Tailwind</p>
+                    <p class="text-gray-400 text-sm flex items-center gap-2"><i class="devicon-javascript-plain colored text-lg"></i> JavaScript</p>
+                    <p class="text-gray-400 text-sm flex items-center gap-2"><i class="devicon-vuejs-plain colored text-lg"></i> VueJS</p>
                 </div>
 
-                <div class="bg-gray-900 p-8 rounded-2xl shadow-lg hover:scale-105 transition">
-                    <h4 class="text-xl font-semibold mb-4">Backend</h4>
-                    <p class="text-gray-400">PHP, Laravel, MySQL, C#</p>
+                <div class="bg-gray-900 p-8 rounded-2xl shadow-lg hover:-translate-y-1 hover:ring-1 hover:ring-purple-400 transition-all duration-200 cursor-default flex flex-col items-center gap-2">
+                    <h4 class="text-sm font-semibold uppercase tracking-widest text-white mb-2">Backend</h4>
+                    <p class="text-gray-400 text-sm flex items-center gap-2"><i class="devicon-php-plain colored text-lg"></i> PHP</p>
+                    <p class="text-gray-400 text-sm flex items-center gap-2"><i class="devicon-laravel-plain colored text-lg"></i> Laravel</p>
+                    <p class="text-gray-400 text-sm flex items-center gap-2"><i class="devicon-symfony-original text-lg text-white"></i> Symfony</p>
                 </div>
 
-                <div class="bg-gray-900 p-8 rounded-2xl shadow-lg hover:scale-105 transition">
-                    <h4 class="text-xl font-semibold mb-4">Autres</h4>
-                    <p class="text-gray-400">Git, UX/UI, méthode Agile</p>
+                <div class="bg-gray-900 p-8 rounded-2xl shadow-lg hover:-translate-y-1 hover:ring-1 hover:ring-purple-400 transition-all duration-200 cursor-default flex flex-col items-center gap-2">
+                    <h4 class="text-sm font-semibold uppercase tracking-widest text-white mb-2">Application</h4>
+                    <p class="text-gray-400 text-sm flex items-center gap-2"><i class="devicon-kotlin-plain colored text-lg"></i> Kotlin</p>
+                    <p class="text-gray-400 text-sm flex items-center gap-2"><i class="devicon-csharp-plain colored text-lg"></i> C#</p>
+                    <p class="text-gray-400 text-sm flex items-center gap-2"><i class="devicon-xaml-plain colored text-lg"></i> XAML</p>
                 </div>
+
+                <div class="bg-gray-900 p-8 rounded-2xl shadow-lg hover:-translate-y-1 hover:ring-1 hover:ring-purple-400 transition-all duration-200 cursor-default flex flex-col items-center gap-2">
+                    <h4 class="text-sm font-semibold uppercase tracking-widest text-white mb-2">Base de Données</h4>
+                    <p class="text-gray-400 text-sm flex items-center gap-2"><i class="devicon-azuresqldatabase-plain colored text-lg"></i> SQL</p>
+                    <p class="text-gray-400 text-sm flex items-center gap-2"><i class="devicon-sqlite-plain colored text-lg"></i> SQLite</p>
+                    <p class="text-gray-400 text-sm flex items-center gap-2"><i class="devicon-mysql-plain colored text-lg"></i> MySQL</p>
+                    <p class="text-gray-400 text-sm flex items-center gap-2">
+                        <img src="https://www.heidisql.com/favicon.ico" class="w-5 h-5" alt="HeidiSQL"> HeidiSQL
+                    </p>
+                </div>
+
+                <div class="bg-gray-900 p-8 rounded-2xl shadow-lg hover:-translate-y-1 hover:ring-1 hover:ring-purple-400 transition-all duration-200 cursor-default flex flex-col items-center gap-2">
+                    <h4 class="text-sm font-semibold uppercase tracking-widest text-white mb-2">Autres</h4>
+                    <p class="text-gray-400 text-sm flex items-center gap-2"><i class="devicon-github-original text-lg text-gray-300"></i> GitHub</p>
+                    <p class="text-gray-400 text-sm flex items-center gap-2"><i class="devicon-gitlab-plain colored text-lg"></i> GitLab</p>
+                    <p class="text-gray-400 text-sm flex items-center gap-2"><i class="devicon-windows8-original colored text-lg"></i> IIS</p>
+                    <p class="text-gray-400 text-sm flex items-center gap-2">🔄  Méthode Agile</p>
+                </div>
+
             </div>
         </div>
     </section>
@@ -176,11 +211,11 @@
                     <div class="p-6">
                         <h4 class="text-xl font-bold mb-4">VSA Informatiques</h4>
                         <p class="text-gray-400 mb-4">
-                            Création d'un site interne complet, avec mise en place d'un instaleur & mise en place de sécurité
+                            Création d'un site interne complet, avec mise en place d'un installeur et mise en place de sécurité
                         </p>
                         <div class="relative flex items-center">
                             <span class="text-purple-400 text-sm mx-auto">
-                                C# • Xaml • ISS 
+                                C# • XAML • ISS
                             </span>
                             <a href="VSAInformatiques.html"
                             class="absolute right-0 text-purple-400 text-sm hover:text-purple-300 transition">
@@ -194,11 +229,11 @@
                     <div class="p-6">
                         <h4 class="text-xl font-bold mb-4">Scrabble</h4>
                         <p class="text-gray-400 mb-4">
-                            Créationd'une application permettant de jouer une partie de scrabblea, avec gestion d'un historique 
+                            Création d'une application permettant de jouer une partie de scrabble, avec gestion d'un historique
                         </p>
                         <div class="relative flex items-center">
                             <span class="text-purple-400 text-sm mx-auto">
-                                C# • Xaml
+                                C# • XAML • SQL
                             </span>
                             <a href="Scrabble.html"
                             class="absolute right-0 text-purple-400 text-sm hover:text-purple-300 transition">
@@ -231,7 +266,7 @@
                         <h4 class="text-xl font-bold mb-4">Gourmetise</h4>
                         <p class="text-gray-400 mb-4">
                             Création d'un site internet ainsi que d'une application mobile, permettant d'exposer des résultats ainsi que de donner 
-                            des avis. Gestion base de donnée inclsus
+                            des avis. Gestion base de donnée incluse
                         </p>
                         <div class="relative flex items-center">
                             <span class="text-purple-400 text-sm mx-auto">
@@ -252,7 +287,7 @@
     <section id="contact" class="py-20 px-6 text-center">
         <h3 class="text-3xl font-bold mb-6 text-purple-400">Contact</h3>
         <p class="text-gray-400 mb-8">
-           Pour toute informations complémentaire, n'hésitez pas à me contacter.
+           Pour toutes informations complémentaires, n'hésitez pas à me contacter.
         </p>
         <a href="mailto:bapt.buthion@gmail.com" 
            class="bg-purple-600 hover:bg-purple-700 px-8 py-3 rounded-xl font-semibold transition">
